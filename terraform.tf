@@ -20,7 +20,7 @@ terraform {
 }
 
 provider "instana" {
-  api_token = var.api_token
-  endpoint = var.endpoint
+  api_token = "AqViYZxsSNayAc4WWC5Oxg"
+  endpoint = "ibmdevsandbox-instanaibm.instana.io"
   tls_skip_verify     = false
 }
