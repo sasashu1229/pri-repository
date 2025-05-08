@@ -1,8 +1,5 @@
-# Copyright (c) HashiCorp, Inc.
-# SPDX-License-Identifier: MPL-2.0
-
 resource "instana_custom_dashboard" "example" {
-  title = "Example Dashboarad for Hashicorp"
+  title = "Example Dashboard"
 
   access_rule { 
     access_type = "READ_WRITE"
